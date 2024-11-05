@@ -1,7 +1,12 @@
+import { ReactNode } from 'react';
+
 declare global {
     interface LogoProps {
-        width?: 32 | number;
-        height?: 32 | number;
+        width?: number;
+        height?: number;
+    }
+    interface ContainerProps {
+        children: ReactNode;
     }
 }
 
