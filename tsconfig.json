@@ -20,6 +20,9 @@
         ],
         "paths": {
             "@layout": ["./src/exports/components/layout"],
+            "@shared": ["./src/exports/components/shared"],
+            "@layoutStyles": ["./src/exports/styles/layout"],
+            "@sharedStyles": ["./src/exports/styles/shared"],
             "@/*": ["./src/*"]
         }
     },
