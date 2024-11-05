@@ -1,3 +1,13 @@
+import { Container, Footer, Header, Main } from '@layout';
+
 export default function Landing() {
-    return <></>;
+    return (
+        <>
+            <Header />
+            <Container>
+                <Main />
+                <Footer />
+            </Container>
+        </>
+    );
 }
