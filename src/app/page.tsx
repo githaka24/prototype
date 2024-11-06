@@ -7,6 +7,7 @@ export default function Landing() {
                 <NavigationItem
                     url=''
                     name='Landing'
+                    active
                 />
                 <NavigationItem
                     url=''

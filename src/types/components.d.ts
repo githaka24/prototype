@@ -11,6 +11,7 @@ declare global {
     interface NavigationItemProps {
         url: string;
         name: string;
+        active?: boolean;
     }
     interface HeaderProps {
         children: ReactNode;

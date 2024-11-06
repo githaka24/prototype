@@ -1,9 +1,19 @@
 import { NavigationItemStyles } from '@layoutStyles';
 import Link from 'next/link';
 
-export default function NavigationItem({ url, name }: NavigationItemProps) {
+export default function NavigationItem({
+    url,
+    name,
+    active,
+}: NavigationItemProps) {
     return (
-        <div className={NavigationItemStyles.NavigationItem}>
+        <div
+            className={
+                active
+                    ? NavigationItemStyles.NavigationItemActive
+                    : NavigationItemStyles.NavigationItem
+            }
+        >
             <Link href={url}>{name}</Link>
         </div>
     );
