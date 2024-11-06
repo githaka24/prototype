@@ -29,6 +29,14 @@ declare global {
     interface NavigationSmallProps {
         children: ReactNode;
     }
+    interface ViewProps {
+        id: string;
+        children: ReactNode;
+        style: string;
+    }
+    interface MainProps {
+        children: ReactNode;
+    }
 }
 
 export {};

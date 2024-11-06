@@ -9,3 +9,4 @@ export {
 export { default as Container } from '@/components/layout/container/Container';
 export { default as Main } from '@/components/layout/main/Main';
 export { default as Footer } from '@/components/layout/footer/Footer';
+export { default as View } from '@/components/layout/view/View';

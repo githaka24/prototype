@@ -7,6 +7,9 @@
     min-height: 64px;
     gap: 32px;
     border-bottom: 1px solid var(--black-5);
+    position: sticky;
+    top: 0px;
+    background-color: var(--carrara-white);
 }
 
 @media (min-width: 0px) and (max-width: 384px) {

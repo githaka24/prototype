@@ -21,8 +21,10 @@
         "paths": {
             "@layout": ["./src/exports/components/layout"],
             "@shared": ["./src/exports/components/shared"],
+            "@views": ["./src/exports/components/views"],
             "@layoutStyles": ["./src/exports/styles/layout"],
             "@sharedStyles": ["./src/exports/styles/shared"],
+            "@viewsStyles": ["./src/exports/styles/views"],
             "@fontsHosted": ["./src/exports/fonts/hosted"],
             "@fontsStatic": ["./src/exports/fonts/static"],
             "@fontsVariable": ["./src/exports/fonts/variable"],

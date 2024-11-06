@@ -1,5 +1,6 @@
 import { Container, Footer, Header, Main, NavigationItem } from '@layout';
 import { Button } from '@shared';
+import { Hero } from '@views';
 
 export default function Landing() {
     return (
@@ -20,7 +21,9 @@ export default function Landing() {
                 />
             </Header>
             <Container>
-                <Main />
+                <Main>
+                    <Hero />
+                </Main>
                 <Footer />
             </Container>
         </>
