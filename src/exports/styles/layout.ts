@@ -2,6 +2,7 @@ export { default as HeaderStyles } from '@/styles/components/layout/header/Heade
 export {
     BrandStyles,
     NavigationStyles,
+    NavigationItemStyles,
 } from '@/styles/components/layout/header/Header.fragments';
 export { default as ContainerStyles } from '@/styles/components/layout/container/Container.module.css';
 export { default as MainStyles } from '@/styles/components/layout/main/Main.module.css';

@@ -1,0 +1,19 @@
+.NavigationItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.NavigationItem a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.NavigationItem a:hover {
+    background-color: var(--black-5);
+}

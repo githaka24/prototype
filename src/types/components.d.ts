@@ -8,6 +8,16 @@ declare global {
     interface ContainerProps {
         children: ReactNode;
     }
+    interface NavigationItemProps {
+        url: string;
+        name: string;
+    }
+    interface HeaderProps {
+        children: ReactNode;
+    }
+    interface NavigationProps {
+        children: ReactNode;
+    }
 }
 
 export {};
