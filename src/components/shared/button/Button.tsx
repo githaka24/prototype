@@ -4,7 +4,12 @@ import Link from 'next/link';
 export default function Button({ url, name }: ButtonProps) {
     return (
         <div className={ButtonStyles.Button}>
-            <Link href={url}>{name}</Link>
+            <Link
+                href={url}
+                scroll={false}
+            >
+                {name}
+            </Link>
         </div>
     );
 }

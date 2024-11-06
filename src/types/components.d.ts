@@ -23,6 +23,12 @@ declare global {
         url: string;
         name: string;
     }
+    interface NavigationLargeProps {
+        children: ReactNode;
+    }
+    interface NavigationSmallProps {
+        children: ReactNode;
+    }
 }
 
 export {};

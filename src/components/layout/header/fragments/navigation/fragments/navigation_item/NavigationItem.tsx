@@ -14,7 +14,12 @@ export default function NavigationItem({
                     : NavigationItemStyles.NavigationItem
             }
         >
-            <Link href={url}>{name}</Link>
+            <Link
+                href={url}
+                scroll={false}
+            >
+                {name}
+            </Link>
         </div>
     );
 }

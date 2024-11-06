@@ -1,0 +1,17 @@
+@media (min-width: 0px) and (max-width: 768px) {
+    .NavigationLarge {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .NavigationLarge {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 32px;
+        height: 100%;
+    }
+}

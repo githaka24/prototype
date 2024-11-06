@@ -3,6 +3,8 @@ export {
     Brand,
     Navigation,
     NavigationItem,
+    NavigationLarge,
+    NavigationSmall,
 } from '@/components/layout/header/Header.fragments';
 export { default as Container } from '@/components/layout/container/Container';
 export { default as Main } from '@/components/layout/main/Main';
