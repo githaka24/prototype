@@ -24,3 +24,10 @@
 .NavigationItemActive {
     font-weight: 600;
 }
+
+@media (max-width: 769px) {
+    .NavigationItem a,
+    .NavigationItemActive a {
+        cursor: default;
+    }
+}

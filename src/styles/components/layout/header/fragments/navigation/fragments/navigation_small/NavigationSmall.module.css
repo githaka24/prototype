@@ -28,6 +28,7 @@
     width: 200px;
     height: calc(100vh - 65px - 32px);
     padding: 16px 0px 16px 16px;
+    background-color: white;
 }
 
 .NavigationSmallNavigation div {
