@@ -25,10 +25,10 @@
     position: absolute;
     top: 65px;
     border-left: 1px solid var(--black-5);
-    width: 200px;
+    width: 225px;
     height: calc(100vh - 65px - 32px);
     padding: 16px 0px 16px 16px;
-    background-color: white;
+    background-color: var(--carrara-white);
 }
 
 .NavigationSmallNavigation div {

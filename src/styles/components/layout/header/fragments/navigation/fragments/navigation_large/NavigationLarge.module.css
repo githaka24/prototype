@@ -1,10 +1,10 @@
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 769px) {
     .NavigationLarge {
         display: none;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .NavigationLarge {
         flex-grow: 1;
         display: flex;
