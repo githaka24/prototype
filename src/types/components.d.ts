@@ -19,6 +19,10 @@ declare global {
     interface NavigationProps {
         children: ReactNode;
     }
+    interface ButtonProps {
+        url: string;
+        name: string;
+    }
 }
 
 export {};

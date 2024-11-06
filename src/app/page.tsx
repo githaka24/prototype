@@ -1,4 +1,5 @@
 import { Container, Footer, Header, Main, NavigationItem } from '@layout';
+import { Button } from '@shared';
 
 export default function Landing() {
     return (
@@ -12,6 +13,10 @@ export default function Landing() {
                 <NavigationItem
                     url=''
                     name='Docs'
+                />
+                <Button
+                    url=''
+                    name='Sign In'
                 />
             </Header>
             <Container>
