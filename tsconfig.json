@@ -23,6 +23,9 @@
             "@shared": ["./src/exports/components/shared"],
             "@layoutStyles": ["./src/exports/styles/layout"],
             "@sharedStyles": ["./src/exports/styles/shared"],
+            "@fontsHosted": ["./src/exports/fonts/hosted"],
+            "@fontsStatic": ["./src/exports/fonts/static"],
+            "@fontsVariable": ["./src/exports/fonts/variable"],
             "@/*": ["./src/*"]
         }
     },

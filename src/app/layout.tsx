@@ -1,5 +1,6 @@
 import '@/styles/global/global.css';
 import type { Metadata } from 'next';
+import { workSans } from '@fontsVariable';
 
 export const metadata: Metadata = {
     title: 'Prototype',
@@ -12,7 +13,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body>{children}</body>
+            <body className={workSans.className}>{children}</body>
         </html>
     );
 }
