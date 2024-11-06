@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { NavigationSmallStyles } from '@layoutStyles';
 import Image from 'next/image';
 
@@ -8,6 +8,18 @@ export default function NavigationSmall({ children }: NavigationSmallProps) {
     function triggerNavigation() {
         setNavigation(!navigation);
     }
+
+    useEffect(() => {
+        function handleResize() {
+            if (window.innerWidth > 769) {
+                setNavigation(false);
+            }
+        }
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <div className={NavigationSmallStyles.NavigationSmall}>
             <div
